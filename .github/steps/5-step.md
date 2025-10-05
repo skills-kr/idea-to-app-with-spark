@@ -59,7 +59,7 @@ To learn more about the advanced features, check out the [code editing guide](ht
 
 1. Comment below with either:
    - A brief summary of what you learned from exploring the code, OR
-   - Click here if you want to skip this step: [ ] Skip exploring the code
+   - "I chose to skip exploring the code" if you want to skip this step
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>

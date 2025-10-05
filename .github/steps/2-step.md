@@ -4,7 +4,7 @@ Your app is working, but you realize it could be even more helpful. Maybe it nee
 
 ### 📖 Theory: Continuous Refinement Through Conversation
 
-One of Spark's most powerful features is the ability for you to submit changes to continuously refine your project after the initial creation. You can use the chat interface on the left side to provide to keep changing things and making improvements. On day 1 it might still being annoying, but after a few days or weeks, you've made it super awesome.
+One of Spark's most powerful features is the ability for you to submit changes to continuously refine your project after the initial creation. You can use the chat interface on the left side to keep changing things and making improvements. On day 1 it might still be annoying, but after a few days or weeks, you've made it super awesome.
 
 You can also target specific changes using the "Select element to edit" button. Rather than describe where to apply the change, this is like pointing your finger at something and describing the change.
 
@@ -12,7 +12,7 @@ To learn more about improving your app, check out the [Spark tutorials](https://
 
 ### ⌨️ Activity: Enhance Your App with Additional Features
 
-1. Use the left chat panel to submit a revision prompt that adds relevant functionality to your chosen app:
+1. Use the left chat panel to submit a revision prompt that adds relevant functionality. Choose the prompt that matches the app you created in Step 1:
 
    <details>
    <summary>🍽️ Paper Plate Production - Add AI Rule Analysis</summary><br/>

@@ -28,6 +28,7 @@ To learn more about customizing your app, check out the [styling documentation](
 ### ⌨️ Activity: View Stored Data
 
 1. Click on the "Data" tab to show a list of data tables.
+
    - Notice the sample data we asked it to include.
 
 1. In the window, find an entry and click the edit icon.

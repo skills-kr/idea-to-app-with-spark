@@ -56,17 +56,18 @@ To learn more about Spark's capabilities and billing, check out the [GitHub Spar
 
    </details>
 
-1. Copy the text into the Spark text box and click go.
+1. Copy the text into the Spark text box and click the "Generate" or "Submit" button to start building your app.
 
 1. Watch as Spark builds your application in real-time. This will take 5-10 minutes.
 
 1. Test your app using the live preview.
+
    - If the result isn't very functional, you can try re-submitting (that happens sometimes).
 
 1. Once your app is working, comment below with which option you selected:
 
    - [ ] Paper Plates - 🍽️ Prototype Designer
-   - [ ] Coffee Shop - ☕️ Secret Menu  
+   - [ ] Coffee Shop - ☕️ Secret Menu
    - [ ] Lacrosse Coach - 🥍 Player Improvement
 
 <details>
