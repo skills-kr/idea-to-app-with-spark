@@ -1,23 +1,25 @@
-# (replace-me: Exercise title)
+# Building Web Apps with GitHub Spark
 
-_(replace-me: One-line description of the exercise)_
+_Learn how to create, customize, and share web applications using natural language with GitHub Spark - no coding experience required._
 
 ## Welcome
 
-- **Who is this for**: (replace-me: Target audience description)
-- **What you'll learn**: (replace-me: Learning objectives)
-- **What you'll build**: (replace-me: Description of what the learner will create)
+- **Who is this for**: Beginners with ideas who want to build web applications without coding experience
+- **What you'll learn**: How to use GitHub Spark to create functional web applications through natural language conversation
+- **What you'll build**: You'll create a web application tailored to solve a work task, personal passion, or niche hobby. Your app will include interactive features, data storage, and AI capabilities.
 - **Prerequisites**:
-  - (replace-me: Prerequisite skill/exercise)
-  - (replace-me: Other prerequisites)
+  - A paid tier of GitHub Copilot (Copilot Pro+ or Copilot Enterprise)
+  - Basic familiarity with web browsing and GitHub navigation
 
-- **How long**: This exercise takes less than (replace-me: estimated time) to complete.
+- **How long**: This exercise takes less than 2 hours to complete.
 
 In this exercise, you will:
 
-1. (replace-me: Learning objective step #1)
-1. (replace-me: Learning objective step #2)
-1. (replace-me: Learning objective step #N)
+1. Discover how GitHub Spark makes app development accessible to everyone, not just programmers
+1. Select an example scenario and create your first web application
+1. Refine and customize your app through conversation
+1. Share your application with your workplace or community
+1. Explore advanced features and underlying code
 
 
 ### How to start this exercise
@@ -25,7 +27,7 @@ In this exercise, you will:
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
 
 <!--  (replace-me: Make sure to edit the URL with proper template_owner, template_name, repo name and description)  -->
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=exercise-template&owner=%40me&name=skills-<replace-me>&description=Exercise:+Replace+me&visibility=public)
+[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=github-spark&owner=%40me&name=skills-github-spark&description=Exercise:+Building+Web+Apps+with+GitHub+Spark&visibility=public)
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>
