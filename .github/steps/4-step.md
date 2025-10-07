@@ -1,55 +1,72 @@
 ## Step 4: Share Your App with the Community
 
-Your app is looking great and working well. Now it's time to make it available for others who share your common interest or problem.
+Your app is working well, and also looking great. Now it's time to share it with your coworkers/friends.
 
-### 📖 Theory: App Visibility and Sharing
+### 📖 Theory: App Visibility
 
 GitHub Spark offers three levels of app visibility to control who can access your application:
 
-1. **Only you (Private)**: The app remains accessible only to your account
-2. **Organization**: Share with all members of your GitHub organization
-3. **All GitHub users**: Make your app publicly accessible to anyone with a GitHub account
+1. **Only you (Private)**: Only your account can use the app.
+2. **Organization**: Share with all members of a GitHub organization.
+3. **All GitHub Users**: Accessible to anyone with a GitHub account.
 
-When sharing your app, you also control data access permissions:
+> [!NOTE]
+> There is no anonymous access option (people not logged in to GitHub).
 
-- **Read-only access**: Others can view and use your app but cannot edit, delete, or create new data
-- **Write access**: Users can both view and modify the app's data
+### 📖 Theory: App Permissions
 
-> ❕ **Important:** Spark apps are linked to your personal account, not to an organization, even when shared organizationally.
+If sharing your app, you can provide them some basic edit access.
 
-To learn more about sharing your app, check out the [sharing documentation](https://docs.github.com/en/copilot/tutorials/spark/your-first-spark#sharing-your-app) and [deployment guide](https://docs.github.com/en/copilot/tutorials/spark/build-apps-with-spark#step-7-deploy-and-share-your-app).
+Spark apps are linked to your personal account, not to an organization. Others cannot edit your app. Advanced collaboration is mentioned in the next step.
+
+- **Read-only access**: Others can view and use your app.
+- **Write access**: Users can both view and modify the app's stored data.
+
+> [!TIP]
+> In most cases, `read-only` access is probably the best choice. `Write-only` access is best for your specific small group when you want to share the same data.
 
 ### ⌨️ Activity: Publish Your App
 
-1. Click the "Publish" button in the top-right corner of the Spark interface
+1. Above the live preview, find the toolbar in the top right.
 
-1. Review the default private visibility setting
+1. Click the **Publish** button in the top-right corner of the Spark interface.
 
-1. Change the visibility to "Organization" to share with your GitHub organization, or "All GitHub users" to make it publicly available
+   <img width="300" alt="Publish button" src="https://github.com/user-attachments/assets/e1b066fc-7d26-417c-bdeb-eadf7fa24f47">
 
-1. Set appropriate data access permissions based on your app's use case (read-only for viewing data, write access for collaborative editing)
+1. Wait a moment for the application to be published.
 
-1. Click "View site" to see your deployed application
+1. Click on the **Published** button to show the application address. Notice the **Visibility** defaults to the most private option.
 
-### ⌨️ Activity: Share Your App (Optional)
+   <img width="350" alt="Publish details window" src="https://github.com/user-attachments/assets/6c8329b0-4cc7-4837-9eb6-ea2722d96885">
 
-1. Copy your app's public URL from the address bar
+1. Click the **Visit site** button or copy the address into a new browser tab.
 
-1. Submit the URL in a comment to demonstrate your published app
+### ⌨️ Activity: (Optional) Share Your App
 
-1. Test accessing your app from the public URL to verify it works correctly
+1. Change the visibility to `All GitHub users` to make it available to anyone with a GitHub account.
 
-1. Document how others in your community could find and use your application
+   <img width="350" alt="Visibility setting: All GitHub users" src="https://github.com/user-attachments/assets/a70cbd3a-aeea-4a4a-bb1e-f35fd0a58243">
 
-> [!NOTE]
-> A free GitHub account is enough to use an existing Spark app.
+1. Share the link with a friend or coworker to verify they have access.
+
+   > ❕ **Important** Other users need a GitHub account to use your Spark app. A free account is enough.
+
+1. Maybe ask for feedback to make it even better!
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>
 
-- The "Publish" button is located in the top-right corner of the Spark interface
-- You can change visibility settings even after initially publishing your app
-- Read-only access is recommended for most apps to prevent unauthorized data changes
-- The public URL will be accessible to anyone you share it with (based on your visibility settings)
+- You can change visibility settings after publishing your app.
 
 </details>
+
+## Sharing is caring 🎉
+
+<img width="150px" align="right" alt="Founding Father Octocat" src="https://octodex.github.com/images/founding-father.jpg">
+
+Who did you share your game changing app with?
+
+- [ ] A colleague. We love playing with the new tech! 🤓
+- [ ] A fellow troll. We love trying to break the new tech! 🤓
+- [ ] My secret demo account, haha. 🤣
+- [ ] No one. I play with the new (dangerous) tech alone! 🧑‍🚀
