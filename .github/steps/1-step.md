@@ -50,9 +50,11 @@ Rather than describe some theories of good communication, let's focus on our fun
    <details>
    <summary>1. Paper Plates - 🍽️ Prototype Designer</summary><br/>
 
-   <img width="500" alt="Screenshot of example generated app for paper plate design" src="https://github.com/user-attachments/assets/0f391330-d324-4f17-9290-3851ef3aed49">
+   <img width="500" alt="Screenshot of example generated app for paper plate design" src="https://github.com/user-attachments/assets/c1b6359f-3104-4250-9e63-8ca3a9a86e3d">
 
    ![Static Badge](https://img.shields.io/badge/✨-Prompt-text?style=flat-square&labelColor=a830e8&color=f8e5ff)
+
+   📎 Attachment: [Example Paper Plate Drawing](https://github.com/user-attachments/assets/8fbc27db-1dc8-4ef6-a85d-7e732d7f88f1)
 
    ```prompt
    Make an application for dynamically previewing the design of a paper plate.
@@ -115,8 +117,9 @@ Rather than describe some theories of good communication, let's focus on our fun
    - Plates are made out of paper board, not paper (like for writing).
    - You are an expert paper plate designer.
    - You are an expert computer aided drafter.
-
    ```
+
+   📎
 
    </details>
 
@@ -143,7 +146,7 @@ Rather than describe some theories of good communication, let's focus on our fun
 
    </details>
 
-1. Copy your favorite choice and paste it into the description text box, then click the **Submit** button. You will be forward to a page with the chat interface and live preview.
+1. Copy your favorite choice and paste it into the description text box, then **attach** the related example image. Click the **Submit** button. You will be forward to a page with the chat interface and live preview.
 
    <img width="350" alt="Spark start box with example text and highlighted submit button" src="https://github.com/user-attachments/assets/0e6afb14-7791-4741-b2c1-bb788ee5bba1">
 
