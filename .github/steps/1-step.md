@@ -54,7 +54,7 @@ Rather than describe some theories of good communication, let's focus on the fun
 
    Sometimes, we want to get started quickly and are flexible with the outcome. Here is an example of a very open-ended prompt. If you like this one, paste it into the description text box and click the **Submit** button.
 
-   <img width="500" alt="Screenshot of example generated app for coffee shop" src="1b.png">
+   <img width="500" alt="Screenshot of example generated app for coffee shop" src="https://github.com/user-attachments/assets/18a91fb9-5f5b-48f1-9736-e6f089b1f45b">
 
    ![Static Badge](https://img.shields.io/badge/✨-Spark%20Prompt-text?style=flat-square&labelColor=ce2c85&color=ffe5f1)
 
@@ -276,7 +276,7 @@ Rather than describe some theories of good communication, let's focus on the fun
 
    Sometimes Spark can get a bit _too_ ambitious and break things. When this happens, they can usually be fixed by clicking the **Fix all** button.
 
-   <img width="350px" alt="Screenshot of Fix All button" src="1a.png" />
+   <img width="350px" alt="Screenshot of Fix All button" src="https://github.com/user-attachments/assets/7a4e5543-8d37-4d98-9da4-3e46bf8526ec" />
 
    </details>
 
