@@ -23,7 +23,7 @@ There are 2 ways to share application data with your fellow app users.
 - **Write access**: Users can both view and modify the app's stored data.
 
 > [!TIP]
-> In most cases, `read-only` access is probably the best choice. `Write` access is useful when as small group will use and modify the same data.
+> In most cases, `read-only` access is probably the best choice. `Write` access is useful when a small group will use and modify the same data.
 
 ### ⌨️ Activity: Publish Your App
 

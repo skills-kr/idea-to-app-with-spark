@@ -40,7 +40,7 @@ Like all Codespaces, you can open it and start coding manually just like you do 
 
 1. Expand the **Copilot Chat Panel**. Verify you are in **Agent** mode, then ask Copilot to change the application title.
 
-   > ![Static Badge](https://img.shields.io/badge/-Spark%20Prompt-text?style=social&logo=github%20copilot)
+   > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
    >
    > ```prompt
    > #codebase
