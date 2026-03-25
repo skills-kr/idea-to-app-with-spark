@@ -17,6 +17,6 @@ _대단하네요! 이 실습을 완료하고 GitHub Spark로 아이디어를 가
 
 즐거움은 여기서 끝나지 않습니다! 아이디어를 가진 사람에서 앱 메이커로의 여정은 이제 막 시작되었습니다:
 
-- **[GitHub Copilot 시작하기](https://github.com/skills/getting-started-with-github-copilot)** - 더 많은 AI 기반 개발 도구로 레벨업
+- **[GitHub Copilot 시작하기](https://github.com/skills-kr/getting-started-with-github-copilot)** - 더 많은 AI 기반 개발 도구로 레벨업
 - **[GitHub Codespaces](https://github.com/skills/code-with-codespaces)** - 사전 구성된 개발 환경으로 워크플로우를 간소화
 - **[GitHub Skills](https://learn.github.com/skills)** - 더 많은 실습 과정으로 학습을 계속하세요.
