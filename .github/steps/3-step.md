@@ -1,55 +1,54 @@
-## Step 3: Style Your App
+## Step 3: 앱 스타일링하기
 
 <img height="150px" align="right" src="https://octodex.github.com/images/gangnamtocat.png">
 
-With your app working well now, it's time to do some styling to match your personal brand or design requirements.
+앱이 잘 작동하고 있으니, 이제 개인 브랜드나 디자인 요구사항에 맞게 스타일링할 차례입니다.
 
-Similar to not needing to know how to code, Spark also provides help with basic styling so you don't need to be an expert on color combinations and fonts. 🖍️
+코딩을 몰라도 되는 것처럼, Spark는 기본 스타일링도 도와주므로 색상 조합과 폰트의 전문가가 될 필요가 없습니다. 🖍️
 
-Let's explore some of the pre-made suggestions Spark offers to modify the feel of your app.
+Spark가 앱의 느낌을 수정하기 위해 제공하는 미리 만들어진 제안들을 살펴봅시다.
 
-### 📖 Theory: Visual and Data Customization
+### 📖 이론: 비주얼 및 데이터 커스터마이징
 
-Spark provides several ways to customize your application:
+Spark는 애플리케이션을 커스터마이징하는 여러 방법을 제공합니다:
 
-- **Theme customization**: Easy visual adjustments using the Theme pane to modify colors, fonts, spacing, and overall appearance
-- **Asset management**: Upload and incorporate images, logos, or other files into your application
-- **Data storage**: Spark automatically provides key-value storage for your app's data, with a built-in interface to view and manage stored information
-<!-- - **AI capabilities**: Embed intelligent features like chat bots, content generation, and smart automation without complex integrations -->
+- **테마 커스터마이징**: 테마 창을 사용하여 색상, 폰트, 간격, 전체적인 외관을 쉽게 조정
+- **에셋 관리**: 이미지, 로고 또는 기타 파일을 애플리케이션에 업로드하고 통합
+- **데이터 저장**: Spark가 앱의 데이터를 위한 키-값 저장소를 자동으로 제공하며, 저장된 정보를 보고 관리할 수 있는 내장 인터페이스 포함
 
-### ⌨️ Activity: Personalize Your Design
+### ⌨️ 활동: 디자인 개인화하기
 
-1. In the left chat panel, at the top, click the **Theme** tab. This will open controls for changing the appearance.
+1. 왼쪽 채팅 패널 상단에서 **Theme** 탭을 클릭합니다. 외관을 변경하는 컨트롤이 열립니다.
 
-   <img width="350" alt="Side panel with theme tab highlighted" src="https://github.com/user-attachments/assets/402d2fc9-47fe-413b-85e4-e4d3837d9a35">
+   <img width="350" alt="테마 탭이 강조된 사이드 패널" src="https://github.com/user-attachments/assets/402d2fc9-47fe-413b-85e4-e4d3837d9a35">
 
-1. Change the color theme to something like `Minimalist` or `Cosmic Latte`. Note: Spark may recommend you different options.
+1. 색상 테마를 `Minimalist`나 `Cosmic Latte` 같은 것으로 변경하세요. 참고: Spark가 다른 옵션을 추천할 수도 있습니다.
 
-   <img width="350" alt="Color selector in the theme panel" src="https://github.com/user-attachments/assets/2baa2671-7d65-4b49-9706-93194fedb988">
+   <img width="350" alt="테마 패널의 색상 선택기" src="https://github.com/user-attachments/assets/2baa2671-7d65-4b49-9706-93194fedb988">
 
-1. Experiment with the **Typography** to find a font that matches your app's feel.
+1. **Typography**를 실험하여 앱의 느낌에 맞는 폰트를 찾으세요.
 
-   <img width="350" alt="Typography selectors in the theme panel" src="https://github.com/user-attachments/assets/b3b6251d-c4de-47bc-8649-aa8b93945b26">
+   <img width="350" alt="테마 패널의 타이포그래피 선택기" src="https://github.com/user-attachments/assets/b3b6251d-c4de-47bc-8649-aa8b93945b26">
 
-1. If interested, use the **Color** area to override the Theme and manually set colors.
+1. 관심이 있다면, **Color** 영역을 사용하여 테마를 오버라이드하고 수동으로 색상을 설정하세요.
 
-   <img width="350" alt="Color selectors area in the theme panel" src="https://github.com/user-attachments/assets/3fe6a485-122f-46d9-97ab-65736446efda">
+   <img width="350" alt="테마 패널의 색상 선택 영역" src="https://github.com/user-attachments/assets/3fe6a485-122f-46d9-97ab-65736446efda">
 
-### ⌨️ Activity: Add existing files
+### ⌨️ 활동: 기존 파일 추가하기
 
-It's very common to have existing assets, like a company logo school mascot image, or PDF document. Let's learn how to include those.
+회사 로고, 학교 마스코트 이미지, PDF 문서 등 기존 에셋이 있는 것은 매우 흔한 일입니다. 이것들을 포함하는 방법을 배워봅시다.
 
-1. In the left chat panel, at the top, click the **Assets** tab to show a list of files (probably empty).
+1. 왼쪽 채팅 패널 상단에서 **Assets** 탭을 클릭하여 파일 목록을 표시합니다(아마 비어있을 것입니다).
 
-1. Right-click one of the below logos and download it.
+1. 아래 로고 중 하나를 우클릭하여 다운로드하세요.
 
-   | Paper Plate Company                                                                                       | Coffee Shop                                                                                              | Lacrosse Team                                                                        |
+   | 종이 접시 회사                                                                                             | 커피숍                                                                                                    | 라크로스 팀                                                                           |
    | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
    | ![Mergington Paper Prod](https://github.com/user-attachments/assets/976591b7-7af3-460d-a3db-174c1ef084b6) | ![The Late Commit Cafe](https://github.com/user-attachments/assets/c5149b86-df10-41b2-a772-4fd463b5df19) | ![](https://github.com/user-attachments/assets/779f9c47-83f5-4e1a-8e8f-e98f7663db27) |
 
-1. In the left side panel, click the **Upload files** button and choose the logo image.
+1. 왼쪽 사이드 패널에서 **Upload files** 버튼을 클릭하고 로고 이미지를 선택합니다.
 
-1. Ask Spark to use the uploaded image.
+1. Spark에게 업로드한 이미지를 사용하도록 요청합니다.
 
    > ![Static Badge](https://img.shields.io/badge/✨-Spark%20Prompt-text?style=flat-square&labelColor=ce2c85&color=ffe5f1)
    >
@@ -58,41 +57,41 @@ It's very common to have existing assets, like a company logo school mascot imag
    > I'll let you decide the best place to put it.
    > ```
 
-### ⌨️ Activity: (Optional) View Stored Data
+### ⌨️ 활동: (선택 사항) 저장된 데이터 보기
 
-Sometimes it is nice to see the stored information and manually modify it. This area is a lightweight step into the technical side of Spark, so it is optional.
+때로는 저장된 정보를 확인하고 수동으로 수정하는 것이 좋습니다. 이 영역은 Spark의 기술적인 측면으로 가볍게 들어가는 것이므로 선택 사항입니다.
 
-1. In the left chat panel, at the top, click the **Data** tab to show a list of data objects. Some are single values and some are tables.
+1. 왼쪽 채팅 패널 상단에서 **Data** 탭을 클릭하여 데이터 객체 목록을 표시합니다. 일부는 단일 값이고 일부는 테이블입니다.
 
    <img width="350" alt="" src="https://github.com/user-attachments/assets/daf55c10-755c-4394-a2b9-04d7b7a82584">
 
-1. Click on a few of the items to open an editor for changing the values. Here are some examples:
+1. 몇 가지 항목을 클릭하여 값을 변경하는 편집기를 엽니다. 몇 가지 예시:
 
-   | JSON Document                                                                        | Table                                                                                |
+   | JSON 문서                                                                             | 테이블                                                                                |
    | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
    | ![](https://github.com/user-attachments/assets/856ffcd3-2b59-4de5-99e9-cfd47b0ec00c) | ![](https://github.com/user-attachments/assets/0d3753ee-9d55-4900-b4bb-f064efeb81d6) |
 
-1. Change a value in one of the tables, then click the **Done** button to save.
+1. 테이블 중 하나에서 값을 변경한 다음 **Done** 버튼을 클릭하여 저장합니다.
 
-1. Check the application to see if it updated.
+1. 애플리케이션이 업데이트되었는지 확인합니다.
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>문제가 있나요? 🤷</summary><br/>
 
-- If the theme options don't appear to be updating, try refreshing the page. Sometimes they get out of sync with the live preview.
-- If an image no longer shows in the Assets list, don't worry. It wasn't removed. Spark probably moved it to a different place in the application. You can still mention it when chatting.
+- 테마 옵션이 업데이트되지 않는 것 같으면, 페이지를 새로고침해 보세요. 때때로 실시간 미리보기와 동기화가 안 될 수 있습니다.
+- 이미지가 Assets 목록에 더 이상 표시되지 않아도 걱정하지 마세요. 삭제된 것이 아닙니다. Spark가 애플리케이션의 다른 곳으로 옮겼을 수 있습니다. 채팅에서 여전히 언급할 수 있습니다.
 
 </details>
 
-## Looking good? 🧐
+## 멋져 보이나요? 🧐
 
 <img width="150px" align="right" alt="Daftpunktocat-Guy" src="https://octodex.github.com/images/daftpunktocat-guy.gif">
 
-We know you look amazing! But... we actually meant:
+당신이 멋져 보이는 건 알고 있습니다! 하지만... 사실 말하고 싶은 건:
 
-How's the app looking? 😎
+앱은 어때 보이나요? 😎
 
-- [ ] My app is obviously fabulous now. 💋
-- [ ] I'm not judging, I just like drama and sci-fi. 🤠
-- [ ] I call it "eclectic coffee cache". 🤷 ☕️
-- [ ] (Custom pun here) 💡
+- [ ] 제 앱은 당연히 화려합니다. 💋
+- [ ] 판단하지 않아요, 드라마와 SF를 좋아할 뿐. 🤠
+- [ ] "절충적 커피 캐시"라고 부릅니다. 🤷 ☕️
+- [ ] (여기에 맞춤 유머를) 💡

@@ -1,4 +1,4 @@
-name: Step 5
+name: Step 5 # 고급 기능
 
 on:
   issue_comment:
@@ -17,18 +17,18 @@ env:
 
 jobs:
   find_exercise:
-    name: Find Exercise Issue
-    uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@v0.7.2
+    name: 실습 이슈 찾기
+    uses: skills-kr/exercise-toolkit/.github/workflows/find-exercise-issue.yml@kr-v0.6.0
 
   check_step:
-    name: Check step
+    name: 단계 확인
     runs-on: ubuntu-latest
 
     outputs:
       is-step-complete: ${{ steps.is-step-complete.outputs.is-step-complete }}
 
     steps:
-      - name: Verify comment body includes step number and a checked box
+      - name: 댓글 본문에 단계 번호와 체크된 박스가 포함되어 있는지 확인
         uses: actions/github-script@v6
         id: is-step-complete
         with:
@@ -48,7 +48,7 @@ jobs:
           COMMENT_BODY: ${{ github.event.comment.body }}
 
   post_review_content:
-    name: Post review content
+    name: 리뷰 내용 게시
     needs: [find_exercise, check_step]
     runs-on: ubuntu-latest
     if: ${{ needs.check_step.outputs.is-step-complete == 'true' }}
@@ -61,36 +61,64 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # - name: Get response templates
-      #   uses: actions/checkout@v4
-      #   with:
-      #     repository: skills/exercise-toolkit
-      #     path: exercise-toolkit
-      #     ref: v0.7.2
+      - name: 응답 템플릿 가져오기
+        uses: actions/checkout@v4
+        with:
+          repository: skills-kr/exercise-toolkit
+          path: exercise-toolkit
+          ref: kr-v0.6.0
 
-      # - name: Create comment - step finished - final review next
-      #   uses: GrantBirki/comment@v2.1.1
-      #   with:
-      #     repository: ${{ env.ISSUE_REPOSITORY }}
-      #     issue-number: ${{ env.ISSUE_NUMBER }}
-      #     file: exercise-toolkit/markdown-templates/step-feedback/lesson-review.md
+      - name: 댓글 생성 - 단계 완료 및 리뷰
+        uses: GrantBirki/comment@v2.1.1
+        with:
+          repository: ${{ env.ISSUE_REPOSITORY }}
+          issue-number: ${{ env.ISSUE_NUMBER }}
+          file: exercise-toolkit/markdown-templates/step-feedback/lesson-review.md
 
-      - name: Create comment - add review content
+      - name: 댓글 생성 - 리뷰 내용 추가
         uses: GrantBirki/comment@v2.1.1
         with:
           repository: ${{ env.ISSUE_REPOSITORY }}
           issue-number: ${{ env.ISSUE_NUMBER }}
           file: ${{ env.REVIEW_FILE }}
 
-      - name: Disable current workflow
+      - name: 현재 워크플로우 비활성화
         run: gh workflow disable "${{github.workflow}}"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   finish_exercise:
-    name: Finish Exercise
+    name: 실습 완료
     needs: [find_exercise, post_review_content]
-    uses: skills/exercise-toolkit/.github/workflows/finish-exercise.yml@v0.7.2
+    uses: skills-kr/exercise-toolkit/.github/workflows/finish-exercise.yml@kr-v0.6.0
     with:
       issue-url: ${{ needs.find_exercise.outputs.issue-url }}
-      exercise-title: "Idea to App with GitHub Spark"
+      exercise-title: "GitHub Spark로 아이디어를 앱으로"
+
+  report_completion:
+    name: Workshop Tracker에 완료 보고
+    needs: [find_exercise, post_review_content]
+    runs-on: ubuntu-latest
+    if: success()
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Workshop Tracker에 완료 보고
+        continue-on-error: true
+        run: |
+          SESSION_ID=$(jq -r '.sessionId' .github/workshop-config.json)
+          TRACK=$(jq -r '.track' .github/workshop-config.json)
+          API_URL=$(jq -r '.apiUrl' .github/workshop-config.json)
+          curl -s -X POST "$API_URL" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "sessionId": "'"$SESSION_ID"'",
+              "type": "end",
+              "step": 5,
+              "description": "고급 기능",
+              "username": "'"$GITHUB_ACTOR"'",
+              "repo": "'"$GITHUB_REPOSITORY"'",
+              "track": "'"$TRACK"'",
+              "runId": "'"$GITHUB_RUN_ID"'"
+            }' || true

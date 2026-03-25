@@ -1,51 +1,49 @@
-## Step 2: Revise and Edit Your App
+## Step 2: 앱 수정하기
 
 <img height="150px" align="right" src="https://octodex.github.com/images/mcefeeline.jpg">
 
-After playing with your new app, it probably didn't take long to realize you forgot something. Or... come up with some fun new ideas to make the app even better!
+새 앱을 가지고 놀아본 후, 뭔가 빠뜨린 것을 금방 깨달았을 것입니다. 또는... 앱을 더 좋게 만들 재미있는 새 아이디어가 떠올랐을 수도 있습니다!
 
-Here's the good news. You can continue to improve your app just by talking to Spark, again with normal language (and that niche work/hobby jargon you taught Spark).
+좋은 소식이 있습니다. Spark에게 일상적인 언어(그리고 Spark에게 가르친 업무/취미 전문 용어)로 계속 대화하면서 앱을 개선할 수 있습니다.
 
 > [!NOTE]
-> For demonstration purposes in the remaining steps, we'll use the Paper Plate designer app.
+> 나머지 단계에서는 시연 목적으로 종이 접시 디자이너 앱을 사용합니다.
 
-### 📖 Theory: Continuous Refinement
+### 📖 이론: 지속적인 개선
 
-One of Spark's most powerful features is the ability to continuously submit changes to further enhance your project.
+Spark의 가장 강력한 기능 중 하나는 지속적으로 변경 사항을 제출하여 프로젝트를 더욱 향상시킬 수 있다는 것입니다.
 
-Unlike traditional software, you don't have to submit lots of "feature requests" and "bug reports" then live with the current version for another 6 months until another release happens! (and hope they fixed your problem 😒)
+기존 소프트웨어와 달리, 수많은 "기능 요청"과 "버그 리포트"를 제출하고 다음 릴리스까지 6개월을 기다리며 현재 버전으로 살 필요가 없습니다! (그리고 문제가 해결되길 바라는 것도 😒)
 
-After just a few chats on day one, you might have something really useful, maybe even awesome! Just imagine after 6 months! 🧑‍🚀
+첫날 몇 번의 대화만으로도 정말 유용한, 어쩌면 멋진 것을 가질 수 있습니다! 6개월 후를 상상해 보세요! 🧑‍🚀
 
-There are 2 (and a half) primary ways to communicate ideas to Spark:
+Spark에 아이디어를 전달하는 2(그리고 반)가지 주요 방법이 있습니다:
 
-1. **Left Chat panel**: Similar to our initial application description, just describe the desired change(s).
+1. **왼쪽 채팅 패널**: 초기 애플리케이션 설명과 마찬가지로, 원하는 변경 사항을 설명합니다.
 
-2. **Element Selector**: Select a feature in the live preview and use the floating chat box to focus your request to a particular area.
+2. **요소 선택기**: 실시간 미리보기에서 기능을 선택하고 플로팅 채팅 상자를 사용하여 특정 영역에 요청을 집중합니다.
 
-&nbsp;&nbsp; 2.5. **Share an Image**: In either of the above chats, attach image of a mock up, or even a hand sketch, to clarify your description.
+&nbsp;&nbsp; 2.5. **이미지 공유**: 위의 채팅 중 하나에서 목업 이미지나 손 스케치를 첨부하여 설명을 명확히 합니다.
 
-Here are some example situations you might explore (later). 🧐
+다음은 (나중에) 탐색할 수 있는 몇 가지 예제 상황입니다. 🧐
 
-- Improve an existing feature.
-- Add a new buggy feature, then fix it.
-- Break something accidentally then "undo" to fix it.
-- Remove a feature you don't need anymore.
-  <!-- - Simplifying an interface by using AI -->
-  <!-- - Generating results using AI -->
+- 기존 기능 개선하기.
+- 새로운 버그 있는 기능을 추가한 다음 수정하기.
+- 실수로 무언가를 깨뜨린 다음 "되돌리기"로 수정하기.
+- 더 이상 필요 없는 기능 제거하기.
 
 > [!TIP]
-> Your application doesn't need to limit itself to only 1 way to solve a problem.
-> Consider adding multiple techniques at the same time to try them, then just remove the unused things later! 🧪
+> 애플리케이션이 문제를 해결하는 단 하나의 방법에만 제한될 필요는 없습니다.
+> 여러 기술을 동시에 추가하여 시도해 보고, 나중에 사용하지 않는 것만 제거하세요! 🧪
 
-### ⌨️ Activity: Add a new feature
+### ⌨️ 활동: 새 기능 추가하기
 
-1. Ensure you are at the live preview screen.
+1. 실시간 미리보기 화면에 있는지 확인하세요.
 
-1. Below are some example ideas you can ask Spark to implement. Alternately, you can make your own!.
+1. 아래는 Spark에 구현을 요청할 수 있는 예제 아이디어입니다. 또는 직접 만들어도 됩니다!
 
    <details>
-   <summary>1. Coffee Shop - ☕️ Secret Menu</summary><br/>
+   <summary>1. 커피숍 - ☕️ 시크릿 메뉴</summary><br/>
 
    ![Static Badge](https://img.shields.io/badge/✨-Spark%20Prompt-text?style=flat-square&labelColor=ce2c85&color=ffe5f1)
 
@@ -61,7 +59,7 @@ Here are some example situations you might explore (later). 🧐
    ***
 
    <details>
-   <summary>2. Lacrosse - 🥍 Stats Tracker</summary><br/>
+   <summary>2. 라크로스 - 🥍 통계 트래커</summary><br/>
 
    ![Static Badge](https://img.shields.io/badge/✨-Spark%20Prompt-text?style=flat-square&labelColor=ce2c85&color=ffe5f1)
 
@@ -89,7 +87,7 @@ Here are some example situations you might explore (later). 🧐
    ***
 
    <details>
-   <summary>3. Paper Plates - 🍽️ Prototype Designer</summary><br/>
+   <summary>3. 종이 접시 - 🍽️ 프로토타입 디자이너</summary><br/>
 
    ![Static Badge](https://img.shields.io/badge/✨-Spark%20Prompt-text?style=flat-square&labelColor=8250df&color=f1e5ff)
 
@@ -132,36 +130,36 @@ Here are some example situations you might explore (later). 🧐
 
    ***
 
-1. Copy your favorite feature into the left chat panel. Click the **Submit** button.
+1. 마음에 드는 기능을 왼쪽 채팅 패널에 복사하세요. **Submit** 버튼을 클릭합니다.
 
-1. Monitor the left chat panel for live feedback. Wait for Spark to finish.
+1. 왼쪽 채팅 패널에서 실시간 피드백을 확인하세요. Spark가 완료될 때까지 기다립니다.
 
-   <img width="350" alt="Spark chat with live progress information" src="https://github.com/user-attachments/assets/652bf9b3-9e22-4575-8980-e8841f3dece5">
+   <img width="350" alt="실시간 진행 정보가 있는 Spark 채팅" src="https://github.com/user-attachments/assets/652bf9b3-9e22-4575-8980-e8841f3dece5">
 
-1. (optional) Try testing the new features in the live preview. If they don't work like you expect, consider submitting followup feedback.
+1. (선택 사항) 실시간 미리보기에서 새 기능을 테스트해 보세요. 예상대로 작동하지 않으면 후속 피드백을 제출하는 것을 고려하세요.
 
 > [!NOTE]
-> Some file-based features like "Download PDF" don't currently work in the live preview, but do work after publishing.
+> "PDF 다운로드"와 같은 일부 파일 기반 기능은 현재 실시간 미리보기에서는 작동하지 않지만, 게시 후에는 작동합니다.
 
-### ⌨️ Activity: Target a specific change
+### ⌨️ 활동: 특정 변경 사항 타겟팅하기
 
-We've realized the side configuration panel in our app is taking up a lot of screen space. Let's have Spark fix that for us.
+앱의 사이드 설정 패널이 화면 공간을 많이 차지한다는 것을 깨달았습니다. Spark가 이것을 해결하도록 합시다.
 
-1. Above the live preview, find the toolbar in the top right. Click the **Select element to edit** button.
+1. 실시간 미리보기 위에서 오른쪽 상단의 도구 모음을 찾으세요. **Select element to edit** 버튼을 클릭합니다.
 
-   <img width="350" alt="Select element button" src="https://github.com/user-attachments/assets/9c9dbf82-4cc8-48e8-82dc-eda14d7e6e3f">
+   <img width="350" alt="요소 선택 버튼" src="https://github.com/user-attachments/assets/9c9dbf82-4cc8-48e8-82dc-eda14d7e6e3f">
 
-1. In the live preview, hover over the app's right settings panel. Click on it to highlight it. A chat box will appear.
+1. 실시간 미리보기에서 앱의 오른쪽 설정 패널 위에 마우스를 올리세요. 클릭하여 하이라이트하면 채팅 상자가 나타납니다.
 
    <details>
-   <summary>🤷‍♂️ No side panel?</summary>
+   <summary>🤷‍♂️ 사이드 패널이 없나요?</summary>
 
-   If your generated app doesn't have a side panel, it is ok. Mona will not be checking this. You can try modifying something else. 🧑‍🚀
+   생성된 앱에 사이드 패널이 없다면 괜찮습니다. Mona가 이것을 확인하지 않습니다. 다른 것을 수정해 볼 수 있습니다. 🧑‍🚀
    </details>
 
-   <img width="350" alt="Select element button" src="https://github.com/user-attachments/assets/2f5a3d9a-30d1-4c8b-aa01-b208c63b65ec">
+   <img width="350" alt="요소 선택 버튼" src="https://github.com/user-attachments/assets/2f5a3d9a-30d1-4c8b-aa01-b208c63b65ec">
 
-1. Enter the following text to ask Spark to make the side panel automatically hide when it isn't used:
+1. 다음 텍스트를 입력하여 Spark에게 사용하지 않을 때 사이드 패널이 자동으로 숨겨지도록 요청합니다:
 
    > ![Static Badge](https://img.shields.io/badge/✨-Spark%20Prompt-text?style=flat-square&labelColor=8250df&color=f1e5ff)
    >
@@ -170,23 +168,23 @@ We've realized the side configuration panel in our app is taking up a lot of scr
    > Can you do something to make it automatically hide and show?
    > ```
 
-   <img width="350" alt="Floating chat box" src="https://github.com/user-attachments/assets/c6141af3-cd8c-4924-969c-a2992218dc4d">
+   <img width="350" alt="플로팅 채팅 상자" src="https://github.com/user-attachments/assets/c6141af3-cd8c-4924-969c-a2992218dc4d">
 
-1. Test the new functionality in the live preview to see if it operates as desired.
+1. 실시간 미리보기에서 새 기능이 원하는 대로 작동하는지 테스트합니다.
 
-### ⌨️ Activity: Undo and try again
+### ⌨️ 활동: 되돌리기와 다시 시도
 
-Sometimes we don't like the results, or just want to try again with a better description.
+때로는 결과가 마음에 들지 않거나, 더 나은 설명으로 다시 시도하고 싶을 때가 있습니다.
 
-1. In the left chat panel, notice there is a vertical timeline. One entry for each requested change.
+1. 왼쪽 채팅 패널에서 세로 타임라인이 있는 것을 확인하세요. 각 요청한 변경 사항마다 하나의 항목이 있습니다.
 
-1. Find the previous task, hover over it, and click the **Restore** button.
+1. 이전 작업을 찾아서 마우스를 올리고 **Restore** 버튼을 클릭합니다.
 
-   <img width="350" alt="Restore button" src="https://github.com/user-attachments/assets/7fadae34-2155-4fcc-89b1-fdff9d4891bd">
+   <img width="350" alt="복원 버튼" src="https://github.com/user-attachments/assets/7fadae34-2155-4fcc-89b1-fdff9d4891bd">
 
-1. Wait a moment for the live preview to update.
+1. 실시간 미리보기가 업데이트될 때까지 잠시 기다립니다.
 
-1. Let's try updating the "hide panel" feature again with a more specific description. In the left chat panel, submit the below request:
+1. "패널 숨기기" 기능을 더 구체적인 설명으로 다시 업데이트해 봅시다. 왼쪽 채팅 패널에 아래 요청을 제출합니다:
 
 > ![Static Badge](https://img.shields.io/badge/✨-Spark%20Prompt-text?style=flat-square&labelColor=a830e8&color=f8e5ff)
 >
@@ -198,19 +196,19 @@ Sometimes we don't like the results, or just want to try again with a better des
 > ```
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>문제가 있나요? 🤷</summary><br/>
 
-- Updates can take a while, especially if it is a busy time.
+- 업데이트에 시간이 걸릴 수 있습니다, 특히 바쁜 시간대인 경우.
 
 </details>
 
-## Done playing?
+## 다 놀았나요?
 
 <img width="150px" align="right" alt="Skatetocat" src="https://octodex.github.com/images/skatetocat.png">
 
-When the app is ready, pick your favorite Spark feature, then wait a few moments for the next step to be shared.
+앱이 준비되면, 가장 마음에 드는 Spark 기능을 선택한 후 다음 단계가 공유될 때까지 잠시 기다리세요.
 
-- [ ] No technical jargon, or at least less. 🙇
-- [ ] The funny messages. 😎
-- [ ] The perfect length wait times so I can grab more coffee. ☕️
-- [ ] Yeah... not convinced yet. 🤷
+- [ ] 기술 용어가 없거나 적어도 적다. 🙇
+- [ ] 재미있는 메시지들. 😎
+- [ ] 커피를 더 가져올 수 있는 완벽한 대기 시간. ☕️
+- [ ] 아직 확신이 없다. 🤷

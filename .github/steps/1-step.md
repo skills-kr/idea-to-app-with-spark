@@ -1,60 +1,60 @@
-## Step 1: Getting Started with Spark
+## Step 1: Spark 시작하기
 
 <img width="300px" align="right" alt="GitHub Spark logo" src="https://github.com/user-attachments/assets/46b8b848-28c3-4726-80d7-fb5be4ebb5f8">
 
-You're _that person_, the one with passion and too many ideas.
-You have the great ideas that could help solve problems or improve processes, but you've never had the technical skills to build them.
+당신은 바로 _그런 사람_입니다. 열정과 너무 많은 아이디어를 가진 사람이요.
+문제를 해결하거나 프로세스를 개선할 수 있는 훌륭한 아이디어가 있지만, 그것을 구현할 기술적 역량이 없었던 거죠.
 
-Today, you'll discover that with **GitHub Spark**, your ideas can become real web applications that solve real problems for you. All you need is some niche work/hobby knowledge and a little patience to write down what you want to make (the hardest part).
+오늘, **GitHub Spark**를 사용하면 여러분의 아이디어가 실제 문제를 해결하는 웹 애플리케이션이 될 수 있다는 것을 알게 될 것입니다. 필요한 것은 약간의 업무/취미 관련 지식과 만들고 싶은 것을 적는 약간의 인내심(가장 어려운 부분)뿐입니다.
 
-### 📖 Theory: What is Spark?
+### 📖 이론: Spark란 무엇인가요?
 
-GitHub Spark is designed for non-coders, really! 😎
+GitHub Spark는 비개발자를 위해 설계되었습니다, 진짜로요! 😎
 
-It provides everything needed to make your web application and use it, no confusing coder talk at all.
-From this point on, think of _"Spark"_ as the nickname of a **new** friend/coworker.
+웹 애플리케이션을 만들고 사용하는 데 필요한 모든 것을 제공하며, 복잡한 개발 용어는 전혀 없습니다.
+지금부터 _"Spark"_를 **새로운** 친구/동료의 별명이라고 생각하세요.
 
-That sounds like marketing fluff, _but we mean it! ✨_
+마케팅 문구처럼 들리겠지만, _진심입니다! ✨_
 
-When a new coworker joins the team, they will probably understand the common fundamentals of your field well. However, they likely don't understand internal jargon, your specific challenges, and the team's goals. Spark is the same way, just faster! 🚀 So, chat a bit, watch the preview update, try to break it, share feedback, repeat.
+새로운 동료가 팀에 합류하면, 여러분의 분야의 기본적인 사항은 잘 이해할 것입니다. 하지만 내부 용어, 구체적인 과제, 팀의 목표는 잘 모를 수 있습니다. Spark도 마찬가지입니다, 단지 더 빠를 뿐! 🚀 그러니 대화하고, 미리보기가 업데이트되는 것을 확인하고, 깨뜨려 보고, 피드백을 공유하고, 반복하세요.
 
-Also... in familiar human style, Spark will often avoid asking questions and just take creative liberty when you don't describe something well. (We all love that! 😅)
+또한... 익숙한 인간 스타일로, Spark는 질문을 피하고 여러분이 잘 설명하지 않으면 창의적으로 자유롭게 판단하는 경향이 있습니다. (모두 좋아하죠! 😅)
 
-In short, Spark is:
+요약하면, Spark는:
 
-- **No software jargon** - Collaborate like you would with another person. No special software words required (unless you want to).
-- **Live preview** - See changes automatically, in minutes, for evolving fast.
-- **No systems to manage** - Everything is included. Don't worry about the infrastructure.
-- **Fast** - Minutes to a prototype. Not days.
+- **소프트웨어 용어 없음** - 다른 사람과 대화하듯 협업하세요. 특별한 소프트웨어 용어가 필요 없습니다(원하지 않는 한).
+- **실시간 미리보기** - 변경 사항을 몇 분 안에 자동으로 확인하여 빠르게 발전시킬 수 있습니다.
+- **관리할 시스템 없음** - 모든 것이 포함되어 있습니다. 인프라 걱정은 하지 마세요.
+- **빠름** - 프로토타입까지 며칠이 아닌 몇 분.
 
 > [!IMPORTANT]
-> Spark's [billing](https://docs.github.com/en/billing/concepts/product-billing/github-spark) system operates using [Premium Request Units](https://docs.github.com/en/copilot/concepts/billing/copilot-requests#what-are-premium-requests) (PRUs), a quota of monthly allowed usage. Each request to Spark uses 4 PRUs. Don't feel bad about combining your ideas into fewer longer requests. 😎
+> Spark의 [과금](https://docs.github.com/en/billing/concepts/product-billing/github-spark) 시스템은 [프리미엄 요청 단위](https://docs.github.com/en/copilot/concepts/billing/copilot-requests#what-are-premium-requests)(PRU)를 사용하며, 월별 사용 허용량입니다. Spark에 대한 각 요청은 4 PRU를 사용합니다. 아이디어를 더 적은 수의 긴 요청으로 결합하는 것도 좋은 방법입니다. 😎
 
-### 📖 Theory: Write a good description
+### 📖 이론: 좋은 설명 작성하기
 
-Assuming our friend _Spark_ is shy, likes to avoid questions, but loves to be creative and explore fun stuff (like us), the most important part of getting good results is: clear communication
+우리의 친구 _Spark_가 수줍음이 많고, 질문을 피하지만, 창의적이고 재미있는 것을 탐구하는 것을 좋아한다고 가정하면(우리처럼), 좋은 결과를 얻는 가장 중요한 부분은: 명확한 소통입니다.
 
-We all know starting the app with "Make an app to design paper plates." is pretty generic and probably won't get us what we actually want.
+"종이 접시를 디자인하는 앱을 만들어줘."라고 시작하면 꽤 일반적이고 우리가 실제로 원하는 것을 얻지 못할 것이라는 걸 알고 있습니다.
 
-Rather than describe some theories of good communication, let's focus on the fun creative flow, and just get started with an example.
+좋은 소통 이론을 설명하기보다는, 재미있는 창작 흐름에 집중하고 예제로 바로 시작합시다.
 
 > [!TIP]
-> Use another AI chat tool, like [Copilot on GitHub.com](https://github.com/copilot), to brainstorm ideas for your app and build a clear plan for Spark to implement.
+> [GitHub.com의 Copilot](https://github.com/copilot)과 같은 다른 AI 채팅 도구를 사용하여 앱 아이디어를 브레인스토밍하고 Spark가 구현할 명확한 계획을 세워보세요.
 
-### ⌨️ Activity: Explore Spark and Create Your First App
+### ⌨️ 활동: Spark 탐색하고 첫 번째 앱 만들기
 
-1. Right-click the below link and open Spark in another browser tab.
+1. 아래 링크를 우클릭하여 Spark를 다른 브라우저 탭에서 엽니다.
 
-   [![](https://img.shields.io/badge/✨%20Open%20Spark-%E2%86%92-f1e5ff?style=for-the-badge&labelColor=ce2c85&color=f8e5ff)](https://github.com/spark)
+   [![](https://img.shields.io/badge/✨%20Spark%20열기-%E2%86%92-f1e5ff?style=for-the-badge&labelColor=ce2c85&color=f8e5ff)](https://github.com/spark)
 
-1. Read the below sample application descriptions. Decide which you like best.
+1. 아래 예제 애플리케이션 설명을 읽어보세요. 가장 마음에 드는 것을 선택하세요.
 
    <details>
-   <summary>1. Coffee Shop - ☕️ Secret Menu (short)</summary><br/>
+   <summary>1. 커피숍 - ☕️ 시크릿 메뉴 (짧은 버전)</summary><br/>
 
-   Sometimes, we want to get started quickly and are flexible with the outcome. Here is an example of a very open-ended prompt. If you like this one, paste it into the description text box and click the **Submit** button.
+   때로는 빠르게 시작하고 결과에 유연하게 대처하고 싶을 때가 있습니다. 이것은 매우 개방적인 프롬프트의 예시입니다. 이 프롬프트가 마음에 드시면, 설명 텍스트 상자에 붙여넣고 **Submit** 버튼을 클릭하세요.
 
-   <img width="500" alt="Screenshot of example generated app for coffee shop" src="https://github.com/user-attachments/assets/18a91fb9-5f5b-48f1-9736-e6f089b1f45b">
+   <img width="500" alt="커피숍 예제 앱 스크린샷" src="https://github.com/user-attachments/assets/18a91fb9-5f5b-48f1-9736-e6f089b1f45b">
 
    ![Static Badge](https://img.shields.io/badge/✨-Spark%20Prompt-text?style=flat-square&labelColor=ce2c85&color=ffe5f1)
 
@@ -68,11 +68,11 @@ Rather than describe some theories of good communication, let's focus on the fun
    ***
 
    <details>
-   <summary>2. Lacrosse - 🥍 Stats Tracker (regular)</summary><br/>
+   <summary>2. 라크로스 - 🥍 통계 트래커 (보통 버전)</summary><br/>
 
-   Maybe you have lots of notes and specific requirements. Here is an example of something more detailed. If you like this one, paste it into the description text box and click the **Submit** button.
+   메모가 많고 구체적인 요구사항이 있을 수도 있습니다. 이것은 더 상세한 예시입니다. 이 프롬프트가 마음에 드시면, 설명 텍스트 상자에 붙여넣고 **Submit** 버튼을 클릭하세요.
 
-   <img width="500" alt="Screenshot of example generated app for lacrosse" src="https://github.com/user-attachments/assets/c750bbf2-bccd-4147-b6fa-66bffe964674">
+   <img width="500" alt="라크로스 예제 앱 스크린샷" src="https://github.com/user-attachments/assets/c750bbf2-bccd-4147-b6fa-66bffe964674">
 
    ![Static Badge](https://img.shields.io/badge/✨-Spark%20Prompt-text?style=flat-square&labelColor=bc4c00&color=ffe7d1)
 
@@ -192,11 +192,11 @@ Rather than describe some theories of good communication, let's focus on the fun
    ***
 
    <details>
-   <summary>3. Paper Plates - 🍽️ Prototype Designer (long)</summary><br/>
+   <summary>3. 종이 접시 - 🍽️ 프로토타입 디자이너 (긴 버전)</summary><br/>
 
-   Is your requirement very technically specific? Here's an example that also attaches an image. If you like this one, paste it into the description text box and click the **Submit** button.
+   요구사항이 매우 기술적으로 구체적인가요? 이미지도 첨부하는 예시입니다. 이 프롬프트가 마음에 드시면, 설명 텍스트 상자에 붙여넣고 **Submit** 버튼을 클릭하세요.
 
-   <img width="500" alt="Screenshot of example generated app for paper plate design" src="https://github.com/user-attachments/assets/c1b6359f-3104-4250-9e63-8ca3a9a86e3d">
+   <img width="500" alt="종이 접시 디자인 예제 앱 스크린샷" src="https://github.com/user-attachments/assets/c1b6359f-3104-4250-9e63-8ca3a9a86e3d">
 
    ![Static Badge](https://img.shields.io/badge/✨-Spark%20Prompt-text?style=flat-square&labelColor=a830e8&color=f8e5ff)
 
@@ -269,47 +269,47 @@ Rather than describe some theories of good communication, let's focus on the fun
 
    ***
 
-1. You will be forward to a page with the chat interface and live preview.
+1. 채팅 인터페이스와 실시간 미리보기가 있는 페이지로 이동합니다.
 
    <details>
-   <summary>🐛 Did you get an error message? </summary>
+   <summary>🐛 오류 메시지가 나왔나요? </summary>
 
-   Sometimes Spark can get a bit _too_ ambitious and break things. When this happens, they can usually be fixed by clicking the **Fix all** button.
+   때때로 Spark가 너무 야심차서 문제가 생길 수 있습니다. 이런 경우 **Fix all** 버튼을 클릭하면 대부분 해결됩니다.
 
-   <img width="350px" alt="Screenshot of Fix All button" src="https://github.com/user-attachments/assets/7a4e5543-8d37-4d98-9da4-3e46bf8526ec" />
+   <img width="350px" alt="Fix All 버튼 스크린샷" src="https://github.com/user-attachments/assets/7a4e5543-8d37-4d98-9da4-3e46bf8526ec" />
 
    </details>
 
-   <img width="350" alt="Spark start box with example text and highlighted submit button" src="https://github.com/user-attachments/assets/0e6afb14-7791-4741-b2c1-bb788ee5bba1">
+   <img width="350" alt="예제 텍스트와 하이라이트된 제출 버튼이 있는 Spark 시작 화면" src="https://github.com/user-attachments/assets/0e6afb14-7791-4741-b2c1-bb788ee5bba1">
 
-1. In the left chat panel, notice that Spark is providing live feedback about the progress of your app.
+1. 왼쪽 채팅 패널에서 Spark가 앱 진행 상황에 대한 실시간 피드백을 제공하는 것을 확인하세요.
 
-   <img width="350" alt="Spark chat with live progress information" src="https://github.com/user-attachments/assets/45ded9dc-6744-4a16-ae4f-af25836a5ae8">
+   <img width="350" alt="실시간 진행 정보가 있는 Spark 채팅" src="https://github.com/user-attachments/assets/45ded9dc-6744-4a16-ae4f-af25836a5ae8">
 
-1. Wait a few minutes for Spark to finish. Enjoy the playful messages while you wait!
+1. Spark가 완료될 때까지 몇 분 기다리세요. 기다리는 동안 재미있는 메시지를 즐기세요!
 
-   > 🪧**Note:** Your results will likely be different from the example screenshot shared earlier.
+   > 🪧**참고:** 결과는 앞서 공유한 예제 스크린샷과 다를 수 있습니다.
 
-   <img width="350" alt="Playful messages with sparkles decoration" src="https://github.com/user-attachments/assets/46ca83de-22e0-47ca-b54c-e6acf975c7b9">
+   <img width="350" alt="반짝이 장식이 있는 재미있는 메시지" src="https://github.com/user-attachments/assets/46ca83de-22e0-47ca-b54c-e6acf975c7b9">
 
 > [!TIP]
-> If you start multiple Spark apps with the same or similar descriptions, you'll get different results. A great way to explore parallel ideas! But be careful, it will also use up your quota quickly too!
+> 같거나 비슷한 설명으로 여러 Spark 앱을 시작하면 다른 결과를 얻게 됩니다. 병렬 아이디어를 탐색하는 좋은 방법입니다! 하지만 조심하세요, 할당량도 빨리 소모됩니다!
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>문제가 있나요? 🤷</summary><br/>
 
-- If your app doesn't work well on the first try, don't worry! You can resubmit the same prompt to get a different result
-- If it seems to be taking a while, that is normal. A well thought out application with lots of requirements can take a long time, even 20 or 30 minutes.
+- 첫 시도에서 앱이 잘 작동하지 않아도 걱정하지 마세요! 같은 프롬프트를 다시 제출하여 다른 결과를 얻을 수 있습니다.
+- 시간이 좀 걸리는 것 같다면, 그것은 정상입니다. 많은 요구사항이 있는 앱은 20분 또는 30분까지 걸릴 수 있습니다.
 
 </details>
 
-## App ready?
+## 앱이 준비되었나요?
 
 <img width="100px" align="right" alt="Nyantocat Gif" src="https://octodex.github.com/images/nyantocat.gif">
 
-When your app seems to be ready and working, check the box of your favorite example application, then wait a few moments for the next step to be shared.
+앱이 준비되고 작동하는 것 같으면, 가장 마음에 드는 예제 애플리케이션의 체크박스를 선택한 후 다음 단계가 공유될 때까지 잠시 기다리세요.
 
-- [ ] Paper Plates - 🍽️ Prototype Designer
-- [ ] Coffee Shop - ☕️ Secret Menu
-- [ ] Lacrosse - 🥍 Stats Tracker
-- [ ] My Own - Future Famous App! 🦄 🧙
+- [ ] 종이 접시 - 🍽️ 프로토타입 디자이너
+- [ ] 커피숍 - ☕️ 시크릿 메뉴
+- [ ] 라크로스 - 🥍 통계 트래커
+- [ ] 나만의 앱 - 미래의 유명 앱! 🦄 🧙

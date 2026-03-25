@@ -1,4 +1,4 @@
-name: Step 2
+name: Step 2 # 앱 수정
 
 on:
   issue_comment:
@@ -17,18 +17,18 @@ env:
 
 jobs:
   find_exercise:
-    name: Find Exercise Issue
-    uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@v0.7.2
+    name: 실습 이슈 찾기
+    uses: skills-kr/exercise-toolkit/.github/workflows/find-exercise-issue.yml@kr-v0.6.0
 
   check_step:
-    name: Check step
+    name: 단계 확인
     runs-on: ubuntu-latest
 
     outputs:
       is-step-complete: ${{ steps.is-step-complete.outputs.is-step-complete }}
 
     steps:
-      - name: Verify comment body includes step number and a checked box
+      - name: 댓글 본문에 단계 번호와 체크된 박스가 포함되어 있는지 확인
         uses: actions/github-script@v6
         id: is-step-complete
         with:
@@ -48,7 +48,7 @@ jobs:
           COMMENT_BODY: ${{ github.event.comment.body }}
 
   post_next_step_content:
-    name: Post next step content
+    name: 다음 단계 내용 게시
     needs: [find_exercise, check_step]
     runs-on: ubuntu-latest
     if: ${{ needs.check_step.outputs.is-step-complete == 'true' }}
@@ -61,39 +61,59 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # - name: Get response templates
-      #   uses: actions/checkout@v4
-      #   with:
-      #     repository: skills/exercise-toolkit
-      #     path: exercise-toolkit
-      #     ref: v0.7.2
+      - name: 응답 템플릿 가져오기
+        uses: actions/checkout@v4
+        with:
+          repository: skills-kr/exercise-toolkit
+          path: exercise-toolkit
+          ref: kr-v0.6.0
 
-      # - name: Create comment - step finished
-      #   uses: GrantBirki/comment@v2.1.1
-      #   with:
-      #     repository: ${{ env.ISSUE_REPOSITORY }}
-      #     issue-number: ${{ env.ISSUE_NUMBER }}
-      #     file: exercise-toolkit/markdown-templates/step-feedback/step-finished-prepare-next-step.md
-      #     vars: |
-      #       next_step_number: 3
+      - name: 댓글 생성 - 단계 완료
+        uses: GrantBirki/comment@v2.1.1
+        with:
+          repository: ${{ env.ISSUE_REPOSITORY }}
+          issue-number: ${{ env.ISSUE_NUMBER }}
+          file: exercise-toolkit/markdown-templates/step-feedback/step-finished-prepare-next-step.md
+          vars: |
+            next_step_number: 3
 
-      - name: Create comment - add step content
+      - name: 댓글 생성 - 단계 내용 추가
         uses: GrantBirki/comment@v2.1.1
         with:
           repository: ${{ env.ISSUE_REPOSITORY }}
           issue-number: ${{ env.ISSUE_NUMBER }}
           file: ${{ env.STEP_3_FILE }}
 
-      # - name: Create comment - watching for progress
-      #   uses: GrantBirki/comment@v2.1.1
-      #   with:
-      #     repository: ${{ env.ISSUE_REPOSITORY }}
-      #     issue-number: ${{ env.ISSUE_NUMBER }}
-      #     file: exercise-toolkit/markdown-templates/step-feedback/watching-for-progress.md
+      - name: 댓글 생성 - 진행 상황 확인 중
+        uses: GrantBirki/comment@v2.1.1
+        with:
+          repository: ${{ env.ISSUE_REPOSITORY }}
+          issue-number: ${{ env.ISSUE_NUMBER }}
+          file: exercise-toolkit/markdown-templates/step-feedback/watching-for-progress.md
 
-      - name: Disable current workflow and enable next one
+      - name: 현재 워크플로우 비활성화 및 다음 워크플로우 활성화
         run: |
           gh workflow disable "${{github.workflow}}"
           gh workflow enable "Step 3"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Workshop Tracker에 단계 보고
+        if: success()
+        continue-on-error: true
+        run: |
+          SESSION_ID=$(jq -r '.sessionId' .github/workshop-config.json)
+          TRACK=$(jq -r '.track' .github/workshop-config.json)
+          API_URL=$(jq -r '.apiUrl' .github/workshop-config.json)
+          curl -s -X POST "$API_URL" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "sessionId": "'"$SESSION_ID"'",
+              "type": "step",
+              "step": 2,
+              "description": "앱 수정",
+              "username": "'"$GITHUB_ACTOR"'",
+              "repo": "'"$GITHUB_REPOSITORY"'",
+              "track": "'"$TRACK"'",
+              "runId": "'"$GITHUB_RUN_ID"'"
+            }' || true
