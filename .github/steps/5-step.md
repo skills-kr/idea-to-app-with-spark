@@ -24,7 +24,7 @@
 
 > [!NOTE]
 > Codespaces에 대해 더 알고 싶으신가요?
-> [Skills 실습](https://github.com/skills/code-with-codespaces)을 시도하거나 [문서](https://docs.github.com/en/codespaces/quickstart)를 살펴보세요.
+> [Skills 실습](https://github.com/skills-kr/code-with-codespaces)을 시도하거나 [문서](https://docs.github.com/en/codespaces/quickstart)를 살펴보세요.
 
 ### ⌨️ 활동: Codespace 탐색하기
 
